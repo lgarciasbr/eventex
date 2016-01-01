@@ -97,6 +97,7 @@ class SubscribeInvalidPost(TestCase):
         form = self.resp.context['form']
         self.assertTrue(form.errors)
 
+
 class SubscribeSuccessMessage(TestCase):
     def setUp(self):
         data = dict(name='Leandro Garcia', cpf='12345678901', email='leandro.garcias@gmail.com', phone='19 991680300')
