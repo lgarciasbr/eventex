@@ -72,7 +72,10 @@ class SubscribePostInvalid(TestCase):
 
 
 class SubscribeSuccessMessage(TestCase):
-    def setUp(self):
-        data = dict(name='Leandro Garcia', cpf='12345678901', email='leandro.garcias@gmail.com', phone='19 991680300')
-        self.resp = self.client.post('/inscricao/', data, follow=True)
+    def test_message(self):
+        data = dict(name='Leandro Garcia', cpf='12345678901',
+                    email='leandro.garcias@gmail.com', phone='19 991680300')
+
+        response = self.client.post('/inscricao/', data, follow=True)
+        self.assertContains(response, 'Inscrição realizada com sucesso!')
 
