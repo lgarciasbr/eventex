@@ -4,10 +4,10 @@ Muito obrigada por se inscrever no Eventex.
 
 Estes foram os dados que você nos forneceu em sua inscrição:
 
-Nome:{{name}}
-CPF:{{cpf}}
-E-Mail:{{email}}
-Telefone:{{phone}}
+Nome:{{subscription.name}}
+CPF:{{subscription.cpf}}
+E-Mail:{{subscription.email}}
+Telefone:{{subscription.phone}}
 
 Em até 48 horas úteis, a nossa equipe entrará
 em contato com você para concluir a sua matricula.
