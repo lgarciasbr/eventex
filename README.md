@@ -13,6 +13,7 @@ Sistema de Eventos encomendado pela Morena.
 5. Configure a instância com o .env
 6. Execute os testes.
 
+
 ```console
 git clone git@github.com:henriquebastos/eventex.git wttd
 cd wttd
@@ -31,6 +32,7 @@ python manage.py test
 4. Defina DEBUG=False
 5. Configure o serviço de email.
 6. Envie o código para o heroku
+
 
 ```console
 heroku create minhainstancia
