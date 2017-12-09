@@ -42,3 +42,5 @@ heroku config:set DEBUG=False
 # configuro o email
 git push heroku master --force
 ```
+
+https://about.me/leandro.garcias
