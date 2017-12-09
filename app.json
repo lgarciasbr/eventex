@@ -2,6 +2,7 @@
   "environments": {
     "test": {
       "scripts": {
+        "postdeploy": "python manage.py migrate --noinput",
         "test": "python manage.py test"
       }
     }
